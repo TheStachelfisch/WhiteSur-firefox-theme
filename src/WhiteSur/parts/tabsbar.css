@@ -233,7 +233,7 @@ tab[selected]:-moz-window-inactive {
 	border: none !important;
 	box-sizing: content-box; /* Avoid deformation on flexbox */
 	border-radius: 3px !important;
-	list-style-image: url("../icons/window-close-symbolic.svg") !important;
+	list-style-image: url("../../common/icons/window-close-symbolic.svg") !important;
 	height: 16px;
 	opacity: .3;
 	padding: 0;
@@ -250,7 +250,7 @@ tab[selected]:-moz-window-inactive {
 
 @media (prefers-color-scheme: dark) {
 	.tab-close-button {
-		list-style-image: url("../icons/window-close-symbolic-light.svg") !important;
+		list-style-image: url("../../common/icons/window-close-symbolic-light.svg") !important;
 	}
 }
 
